@@ -5,4 +5,14 @@
 
 eventsApp.controller('EventController', function($scope){
    // stuff
+    $scope.event = {
+        name: 'test event idk',
+        date: '1/1/2017',
+        time: '11am',
+        location: {
+            address: "100 main st",
+            city: 'los angeles',
+            state: 'ca'
+        }
+    }
 });
