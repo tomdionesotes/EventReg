@@ -13,6 +13,18 @@ eventsApp.controller('EventController', function($scope){
             address: "100 main st",
             city: 'los angeles',
             state: 'ca'
-        }
+        },
+        imageUrl: '/img/angularjs-logo.png',
+        sessions: [
+            {
+                name: 'directives'
+            },
+            {
+                name: 'yay scopes'
+            },
+            {
+                name: 'ctrl'
+            }
+        ]
     }
 });
