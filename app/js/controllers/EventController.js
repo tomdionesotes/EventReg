@@ -17,13 +17,25 @@ eventsApp.controller('EventController', function($scope){
         imageUrl: '/img/angularjs-logo.png',
         sessions: [
             {
-                name: 'directives'
+                name: 'directives',
+                creatorName: 'some dude',
+                duration: '2 minutes',
+                level: 'basic',
+                abstract: 'learn stuff'
             },
             {
-                name: 'yay scopes'
+                name: 'yay scopes',
+                creatorName: 'other dude',
+                duration: '15 minutes',
+                level: 'crazy',
+                abstract: 'wow such event'
             },
             {
-                name: 'ctrl'
+                name: 'ctrl',
+                creatorName: 'final dude',
+                duration: '90 minutes',
+                level: 'medium',
+                abstract: 'l2ctrl'
             }
         ]
     }
