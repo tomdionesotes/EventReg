@@ -21,22 +21,35 @@ eventsApp.controller('EventController', function($scope){
                 creatorName: 'some dude',
                 duration: '2 minutes',
                 level: 'basic',
-                abstract: 'learn stuff'
+                abstract: 'learn stuff',
+                upVoteCount: 0
             },
             {
                 name: 'yay scopes',
                 creatorName: 'other dude',
                 duration: '15 minutes',
                 level: 'crazy',
-                abstract: 'wow such event'
+                abstract: 'wow such event',
+                upVoteCount: 0
             },
             {
                 name: 'ctrl',
                 creatorName: 'final dude',
                 duration: '90 minutes',
                 level: 'medium',
-                abstract: 'l2ctrl'
+                abstract: 'l2ctrl',
+                upVoteCount: 0
             }
         ]
     }
+
+    $scope.upVoteSession = function(session) {
+        // stuff
+        session.upVoteCount++;
+    };
+
+    $scope.downVoteSession = function(session) {
+        // stuff
+        session.upVoteCount--;
+    };
 });
