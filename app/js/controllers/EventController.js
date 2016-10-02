@@ -17,7 +17,7 @@ eventsApp.controller('EventController', function($scope){
 
     $scope.event = {
         name: 'test event idk',
-        date: '1/1/2017',
+        date: 1475442008899,
         time: '11am',
         location: {
             address: "100 main st",
