@@ -5,6 +5,10 @@
 
 eventsApp.controller('EventController', function($scope){
    // stuff
+    $scope.snippet = '<span style="color:red">hi there</span>';
+
+    $scope.boolValue = true;
+
     $scope.event = {
         name: 'test event idk',
         date: '1/1/2017',
