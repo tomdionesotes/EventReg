@@ -23,10 +23,14 @@
             </div>
         </div>
 
+        <button class="btn" ng-disabled="buttonDisabled">Disabled</button>
+
         <div ng-bind-html="snippet">some title</div>
 
         <h2 ng-show="boolValue">Show This</h2>
         <h2 ng-hide="boolValue">Hide This</h2>
+
+        <div ng-non-bindable>{{1 + 2}}</div>
 
         <div class="row">
             <div class="span3">

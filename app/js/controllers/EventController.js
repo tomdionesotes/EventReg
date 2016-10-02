@@ -13,6 +13,8 @@ eventsApp.controller('EventController', function($scope){
 
     $scope.myClass = 'blue';
 
+    $scope.buttonDisabled = true;
+
     $scope.event = {
         name: 'test event idk',
         date: '1/1/2017',
