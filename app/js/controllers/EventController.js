@@ -9,6 +9,10 @@ eventsApp.controller('EventController', function($scope){
 
     $scope.boolValue = true;
 
+    $scope.myStyle = {color:'red'};
+
+    $scope.myClass = 'blue';
+
     $scope.event = {
         name: 'test event idk',
         date: '1/1/2017',

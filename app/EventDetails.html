@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/app.css"/>
 </head>
-<body>
+<body ng-cloak="">
 <div class="container">
     <div class="navbar">
         <div class="navbar-inner">
@@ -19,7 +19,7 @@
         <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
         <div class="row">
             <div class="span11">
-                <h2 ng-bind-template="{{event.name}} {{event.date}}"></h2>
+                <h2 ng-class="myClass" ng-bind-template="{{event.name}} {{event.date}}"></h2>
             </div>
         </div>
 
