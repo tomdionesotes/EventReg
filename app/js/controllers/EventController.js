@@ -15,6 +15,8 @@ eventsApp.controller('EventController', function($scope){
 
     $scope.buttonDisabled = true;
 
+    $scope.sortOrder = 'name';
+
     $scope.event = {
         name: 'test event idk',
         date: 1475442008899,
